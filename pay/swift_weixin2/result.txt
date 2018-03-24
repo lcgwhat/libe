@@ -1,0 +1,445 @@
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: 商户不存在
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: 商户不存在
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: d94d3117f880ee38d83d46e4cbef9176
+key: result_code value: 1
+key: sign value: 9C38449BE07F87A890B57EAD30496606
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: a1506025cc845dbc93ca8d170c62d9f7
+key: result_code value: 1
+key: sign value: 41AD66B8EE9C8C1497E1762E85C424AF
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 3da84a19c251f2b4848d4664bf3b822f
+key: result_code value: 1
+key: sign value: CB5A8FEE905CC5ACFCAC3AACDB0AEFDC
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 2e5f743bb4ac6e8fb03e2ea3f5965789
+key: result_code value: 1
+key: sign value: 31A9CC2C427C18416E838755B1ABEEC6
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 560180f0907c9c4050f8b37b82384cea
+key: result_code value: 1
+key: sign value: 3279D0990864C3E5FA795C57DC5E80BD
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 4b49414842cea9a66be47abf50f5bfbf
+key: result_code value: 1
+key: sign value: 15EECE6068B956B82DFE2BCCDBB98035
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: d6b178a4fcbb8610e65a2b8fce374044
+key: result_code value: 1
+key: sign value: 6DDA80DE7E21F9A3311A177F659DF647
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 7ae1666dc817757947cd5aa83c8da28c
+key: result_code value: 1
+key: sign value: 55BBCB93954B6BF14CF1C236B4141641
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: a20768e5222dad0c7af314f3e51d4206
+key: result_code value: 1
+key: sign value: 76E41B5D73AA7381BB18409C89694D1D
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 559c2bc2d6c211bf590e76c808e058e9
+key: result_code value: 1
+key: sign value: E2A2771564C449B670EEB0A64E77ABA6
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 4011da6bfcd81869b1e717024a14d2c0
+key: result_code value: 1
+key: sign value: F279018DB19C66E5ABE2439A30AC15C1
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: e176dffed8aaa839cb82e6b413e1e969
+key: result_code value: 1
+key: sign value: 32788627AF00C209F28A93CCB181D7A4
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 4d859c0ede71211e357bbd3a9c3e83a3
+key: result_code value: 1
+key: sign value: 0CC4E843455D100E15634AB3CAAA708F
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 59604665457b740b11a146e065a71048
+key: result_code value: 1
+key: sign value: 29F69DF967A0ACFA299DDC900ABC3E32
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 29bfb7e2da1f3e49fb06d2f871aa269a
+key: result_code value: 1
+key: sign value: 0B01D38A00F1A71B9F4AB8B26D142F42
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 57177843370c38a667edc0446f017d55
+key: result_code value: 1
+key: sign value: 852359C81272AEDCCAFDDBD43835AD60
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: f71f5cfef7e152601798e85f4d88925f
+key: result_code value: 1
+key: sign value: F8149EE817E5D77A9DD0DF0584F6E296
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 8db10b50495b0f4562f80ac5377c0eda
+key: result_code value: 1
+key: sign value: 74F6AF02493FA81FB261833201FFED6C
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 3678fc8d82918386d8454273201513f5
+key: result_code value: 1
+key: sign value: 3A5236ED1F51618B20D6B6876F769738
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: e41118567eb2701c760bfefe65d54d25
+key: result_code value: 1
+key: sign value: 357CF31EE4018FAC387B2C1B6AF63BFE
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 6c2100171edfb3980739c4d20f79d7b7
+key: result_code value: 1
+key: sign value: 17A4794F368115EF8BA58E5E6EC04B08
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: fd23f5b204af0d4bfa0704c7c4f2a6c5
+key: result_code value: 1
+key: sign value: 0220D630F0730B66DEF3FBA5E677D25B
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 106599c21a7860e2793a5a8f42414d4f
+key: result_code value: 1
+key: sign value: 4223A1A237592ACB63B8DE5097244482
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 60f28681106baf6e91304328596799c0
+key: result_code value: 1
+key: sign value: E2173160BE253729ECC65B7F5DF16E34
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=0]===================
+key: charset value: UTF-8
+key: err_code value: Auth valid fail
+key: err_msg value: 商户未开通[pay.weixin.wappayv2]支付类型
+key: mch_id value: 101590047971
+key: nonce_str value: 1efafbc507728498fbffcc8ca4dd8b91
+key: result_code value: 1
+key: sign value: 5DEFD6CCC8705963C9DB08D51DBD6E35
+key: sign_type value: MD5
+key: status value: 0
+key: version value: 2.0
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required
+================[status=400]===================
+key: version value: 2.0
+key: charset value: UTF-8
+key: status value: 400
+key: message value: service:This field is required

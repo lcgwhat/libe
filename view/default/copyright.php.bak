@@ -1,0 +1,172 @@
+<?php
+
+require_once 'header.php' ?><section class="page-bg"><div class="container jobs"><div class="page-bg-text"><h1>版权声明<p></p></h1></div></div></section><section class="page-content"><div class="container"><div class="row"><div class="col-md-3 col-sm-3 col-xs-3 left"><?php require_once 'page_nav.php' ?></div><div class="col-md-9 col-sm-9 col-xs-9 right"><div class="main-content"><h3>版权声明</h3><p><p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;line-height:22px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;font-family:Arial;color:#666666;letter-spacing:0px;font-size:12px;"><span style="box-sizing:border-box;margin:0px;padding:0px;color:#FF0000;font-family:&quot;font-weight:bold;">柒付云计费</span><span style="box-sizing:border-box;margin:0px;padding:0px;color:#FF0000;font-family:&quot;font-weight:bold;">中所涉及到的 服务协议 均由柒付所属公司（深圳奇咖网络科技有限公司）与你签约。所有服务也由所属于公司提供，包括但不限于收款、 交易安全、消费安全、销费者保障、个人隐私安全等。</span></span> 
+</p>
+
+	<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><br />
+<span style="white-space:nowrap;">&nbsp; &nbsp; &nbsp; 一、所有权条款</span><br />
+<span style="white-space:nowrap;"> “柒付云计费”(以下简称“柒付”)指由深圳奇咖网络科技有限公司(以下简称“深圳奇咖公司”)运营的网络交易平台，</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">域名为www.7foo.com，柒付所有权属深圳奇咖公司所有。</span><br />
+<span style="white-space:nowrap;"> 使用柒付前请您务必仔细阅读以下条款，对于声明中以粗体标注的内容，您应重点阅读，如您不同意本声明条</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">款的任意内容，请不要注册或使用柒付服务。</span><br />
+<span style="white-space:nowrap;"> 柒付保留随时变更、修改、增加或删除本声明条款的全部或部分内容的权利。您应经常访问柒付以了解最新的</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">条款，因为这些条款与您密切相关。这些条款的某些条文也可能被柒付中相关页面明确指定的法律通告或条款</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">所取代，您应该了解这些内容，一旦阅读相关条款内容，即意味着您已经接受了这些引用或取代的条款。</span><br />
+<span style="white-space:nowrap;"> 二、使用条款</span><br />
+<span style="white-space:nowrap;"> 除柒付商户会员可将所拥有的柒付服务用于商业目的外，柒付上所发布的内容，仅供您合法、非商业目的使用。</span><br />
+<span style="white-space:nowrap;"> 您不得以任何方式修改、复制、公开展示、公布或分发柒付上发布的产品、交易记录、商户信息等相关内容或</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">者以其它方式把这些内容用于任何公开或商业目的。柒付的内容及编排等形式均受知识产权相关法律的保护，</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">任何未经授权而使用柒付内容材料的行为都可能构成对知识产权和其它法律权利的侵犯。</span><br />
+<span style="white-space:nowrap;"> 柒付及相关链接网站上使用和显示的商标、服务商标和标识(以下统称“商标”)属柒付及其权利人所有。您使用或</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">接触柒付的任何内容，不被解释为授予您任何使用有关商标的权利。未经事先书面许可，您不得以任何方式使用</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">柒付的商标。</span><br />
+<span style="white-space:nowrap;"> 您不得使用任何“深层链接”、“页面抓取”、“网络机器人”、“网络蜘蛛”或其它自动设备、程序、算法，或任何其它</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">类似的非正当手段获取通过柒付不能正常获取的任何文件或资料。</span><br />
+<span style="white-space:nowrap;"> 您不得通过任何非法的手段侵入柒付、柒付的服务器或与柒付链接的网络系统。</span><br />
+<span style="white-space:nowrap;"> 您不得利用柒付或与柒付链接的网络系统通过反向查询、追踪等手段获取通过柒付所能获取的其他用户的包括</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">但不限于身份认证、注册账户等信息。</span><br />
+<span style="white-space:nowrap;"> 三、知识产权条款</span><br />
+<span style="white-space:nowrap;"> 深圳奇咖公司拥有柒付内所有信息内容(除柒付商户商品交易信息外，包括但不限于文字、图片、软件、音频、</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">视频)的知识产权。</span><br />
+<span style="white-space:nowrap;"> 任何被授权的浏览、复制、打印和传播属于柒付的信息内容都不得用于商业目的，且所有信息内容及其任何部</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">分的使用都必须包括此知识产权声明。</span><br />
+<span style="white-space:nowrap;"> 柒付所有的产品、技术与所有程序知识产权均属柒付所有。商标及相关图形、标识等为柒付公司所有。未经授</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">权，任何人不得(包括但不限于：以非法的方式复制、传播、展示、镜像、上载、下载)使用。否则，柒付公司</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">依法追究相关侵权者的法律责任。</span><br />
+<span style="white-space:nowrap;"> 四、责任限度条款</span><br />
+<span style="white-space:nowrap;"> 您理解并明确同意使用柒付服务的风险由您个人承担。柒付的服务以“现有的”和“未来的”的状态提供给您，柒</span></span></span><span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">付</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">明确表示不提供任何类型的担保，不论是明示的还是暗示的。柒付不担保服务一定能满足您的要求，也不担保服</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">务不会受中断，柒付对服务的及时性、安全性、真实性、出错发生都不作担保。柒付拒绝提供任何担保，包括</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">信息能否准确、及时、顺利地传送。</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"> <span style="white-space:nowrap;"> 您理解并接受下载或通过柒付服务取得的任何信息资料取决于您自己，并由您承担系统受损、资料丢失以及其</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">它任何风险。柒付对您在柒付上得到的任何商品购物服务、交易进程等，都不作担保。您不会从柒付收到口头或</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">书面的意见或信息，柒付也不会作明确担保。</span><br />
+<span style="white-space:nowrap;"> 上述声明适用于任何在柒付或柒付中提到的第三方对任何损害不承担责任(包括但不限于基于任何原因发生的利</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">润的损失、数据丢失、间接损失、附带损失或业务中断而造成的损害)，无论这些损害是否由于使用、或不能使</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">用柒付的结果、与柒付链接的任何网站或者任何这类网站中包含的信息所引起，也不管它们是否有保证、合同、</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">侵权行为或任何其它法律根据以及事前已得到这类损害可能发生的忠告。如果您由于使用柒付的信息而导致需</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">要对设备或数据进行维护、修理或纠正，您须自行承担由此而造成的所有费用。</span><br />
+<span style="white-space:nowrap;"> 柒付在发生下列情况时不承担责任：</span><br />
+<span style="white-space:nowrap;"> 1、信息的传输是由网络服务提供者(柒付及其授权人)以外的人发起的;</span><br />
+<span style="white-space:nowrap;"> 2、信息的传输、路由、提供链接及存储是通过必要的自动的技术处理过程实现的，信息未经网络服务提供者选择;</span><br />
+<span style="white-space:nowrap;"> 3、除了对他人要求做出自动反应之外，网络服务提供者并没选择这些信息的提供者与接收者;</span><br />
+<span style="white-space:nowrap;"> 4、网络服务提供者的系统或网络中介性或暂时性存储信息所形成的复制件，在正常情况下，没有被预定的接</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">收者以外的人所获得，保留的时间也没有长于为预定的接收者获得信息提供传输、路由或链接所必须的合理时间;</span><br />
+<span style="white-space:nowrap;"> 5、通过系统或网络传输的信息内容原封未动。</span><br />
+<span style="white-space:nowrap;"> 五、关于用户提交材料的条款</span><br />
+<span style="white-space:nowrap;"> 除注册用户身份识别信息，其它任何您发送或邮寄给柒付的材料、信息或联系方式(以下统称信息)均将被视为</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">非保密和非专有的。柒付将对这些信息不承担任何义务。同时您的提交行为如果没有特别声明时，可视为同意</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">(或授权)：</span></span></span><span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">柒付及其授权人可以因商业或非商业的目的自由复制、透露、分发、合并和以其它方式利用这些信</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="white-space:nowrap;color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;">息和所有数据、图像、声音、文本及其它内容。</span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"> <span style="white-space:nowrap;"> 您对柒付的使用不得违背法律法规及公众道德，不得向或从柒付邮寄或发送任何非法、威胁、诽谤、中伤、淫</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">秽、色情、危及国家和/或公共安全或其它可能违法的材料。若相关人对此信息的内容及影响提出确有证据的警</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">告或异议，柒付可随时删除该等信息或无限时中止该信息的网上浏览，而不必事先取得提交者的同意，亦无义</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">务事后通知提交者，情况严重的，柒付可采取注销该用户的措施。您提交给柒付的用于接收产品或服务的身份</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">识别信息将按照《柒付隐私保护条款》进行使用或处理。</span><br />
+<span style="white-space:nowrap;"> 六、下载软件的使用条款</span><br />
+<span style="white-space:nowrap;"> 如果您从柒付下载软件，在使用软件时要遵守该软件附带的软件许可协议中所有的许可条款。在您阅读并接受</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">软件许可协议的各项条款之前，不得下载或安装这一软件。如果在适用的许可条款或协议中，已经禁止复制或</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">再分发这些软件，您须遵照执行。</span><br />
+<span style="white-space:nowrap;"> 七、链接第三方网站条款</span><br />
+<span style="white-space:nowrap;"> 柒付到第三方网站的链接仅作为一种方便服务提供给您。如果使用这些链接，您将离开柒付。柒付没有审查过</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">任何第三方网站，对这些网站及其内容不进行控制，也不负任何责任。如果您决定访问任何与柒付链接的第三</span></span></span> 
+</p>
+<p style="box-sizing:border-box;margin-top:0px;margin-bottom:0px;padding:0px;">
+	<span style="box-sizing:border-box;margin:0px;padding:0px;"><span style="color:#666666;font-family:Arial;font-size:14px;letter-spacing:0px;"><span style="white-space:nowrap;">方网站，其可能带来的结果和风险全部由您自己承担。</span><br />
+<span style="white-space:nowrap;"> 八、法律</span><br />
+<span style="white-space:nowrap;"> 1、因本声明或使用柒付所发生的争议适用中华人民共和国法律，并且排除一切冲突法规的运用。</span><br />
+<span style="white-space:nowrap;"> &nbsp; 2、违反上述声明而给柒付造成损失的，深圳奇咖公司将依法追究其法律责任。</span><br />
+<span style="white-space:nowrap;"> 九、其它</span><br />
+</span></span> 
+</p>
+<div style="text-align:right;">
+	<span style="white-space:nowrap;letter-spacing:0px;">在法律允许的最大范围内，柒付保留对本声明的最终解释权。</span> 
+</div>
+<span style="white-space:nowrap;"> 
+<div style="text-align:right;">
+	<span style="letter-spacing:0px;"> &nbsp; 如您对本声明内容有任何疑问，可拨打客服电话-&nbsp;</span> 
+</div>
+</span> 
+<div style="text-align:right;">
+	<span style="color:#666666;font-family:Arial;"><br />
+</span> 
+</div>
+<p>
+	<br />
+</p>
+</p>
+</div></div></div></div></section><?php require_once 'footer.php' ?>

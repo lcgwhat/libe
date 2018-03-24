@@ -1,0 +1,43 @@
+<?php
+require_once 'inc.php';
+require_once 'wyapi.class.php';
+
+$orderid=$_GET['orderid'];
+$price=$_GET['price'];
+
+$data=array(
+    'order_sn'=>$orderid,
+    'body'=>$orderid,
+    'money'=>$price,
+	'bankcode'=>$bankcode,
+    'notify'=>'http://'.$_SERVER['HTTP_HOST'].'/pay/zwp_wyscan/notifyUrl.php',
+);
+
+$pay=new wyapi();
+$pay->userid=$userid;
+$pay->userkey=$userkey;
+$ret=$pay->submitOrder($data);
+?>
+<!doctype html>
+
+<html>
+<head>
+<title>pay to bank</title>
+</head>
+<body onload="document.pay.submit()">
+<form name="pay" action="<?php echo $PostUrl; ?>" method="post">
+<input type="hidden" name="order_sn" value="<?php echo $orderid; ?>">
+<input type="hidden" name="body" value="<?php echo $orderid; ?>">
+<input type="hidden" name="money" value="<?php echo $price; ?>">
+<input type="hidden" name="notify" value="<?php echo $noticeurl; ?>">
+<input type="hidden" name="return_url" value="<?php echo $backurl; ?>">
+<input type="hidden" name="bankCode" value="<?php echo $remarks; ?>">
+<input type="hidden" name="mark" value="<?php echo $mark; ?>">
+<input type="hidden" name="endip" value="<?php echo $endip; ?>">
+<input type="hidden" name="endcustomer" value="<?php echo $endcustomer; ?>">
+<input type="hidden" name="sign" value="<?php echo $sign; ?>">
+</form>
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+<?php
+require_once '../../app/init.php';
+use WY\app\woodyapp;
+use WY\app\model\Payacp;
+
+$app=woodyapp::getInstance();
+$acp=new Payacp();
+$acpData=$acp->get('alipay');
+extract($acpData);
+
+ function logs($title,$data){
+        if(!$this->debug) return false;
+        $handler = fopen(date('ymd').'-auth.txt','a+');
+        $content = "================".$title."===================\n";
+        if(is_string($data) === true){
+            $content .= $data."\n";
+        }
+        if(is_array($data) === true){
+            forEach($data as $k=>$v){
+                $content .= "key: ".$k." value: ".$v."\n";
+            }
+        }
+        $flag = fwrite($handler,$content);
+        fclose($handler);
+    }
+?>

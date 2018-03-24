@@ -1,0 +1,47 @@
+<?php if(!defined( 'WY_ROOT'))exit; ?>
+    <ul>
+   <?php if($this->session->get('login_username')):?>
+   <li<?php echo $this->action[0]=='docs' ? ' class="current"' : ''?>><a href="/docs"><B> 集成文档</B></a> </li>
+			<?php endif;?>
+        <li<?php echo $this->action[0]=='about' ? ' class="current"' : ''?>>
+            <a href="/about">
+                关于我们
+            </a>
+            </li>
+            <li<?php echo $this->action[0]=='news' ? ' class="current"' : ''?>>
+                <a href="/news">
+                    新闻公告
+                </a>
+                </li>
+                <li<?php echo $this->action[0]=='jobs' ? ' class="current"' : ''?>>
+                    <a href="/jobs">
+                        人才招聘
+                    </a>
+                    </li>
+                    <li<?php echo $this->action[0]=='contact' ? ' class="current"' : ''?>>
+                        <a href="/contact">
+                            联系我们
+                        </a>
+                        </li>
+                        <li<?php echo $this->action[0]=='help' ? ' class="current"' : ''?>>
+                            <a href="/help">
+                                帮助中心
+                            </a>
+                            </li>
+                            <li<?php echo $this->action[0]=='process' ? ' class="current"' : ''?>>
+                                <a href="/process">
+                                    接入流程
+                                </a>
+                                </li>
+				
+                                    <li<?php echo $this->action[0]=='copyright' ? ' class="current"' : ''?>>
+                                        <a href="/copyright">
+                                            版权声明
+                                        </a>
+                                        </li>
+                                        <li<?php echo $this->action[0]=='statement' ? ' class="current"' : ''?>>
+                                            <a href="/statement">
+                                                免责声明
+                                            </a>
+                                            </li>
+    </ul>

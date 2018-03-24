@@ -1,0 +1,252 @@
+<?php
+ini_set("error_reporting","E_ALL & ~E_NOTICE");
+require_once 'header.php' ?>
+    <div class="col-md-10 right">
+        <div class="cb-title">
+            <div class="row">
+                <div class="col-sm-10">
+                    <span class="glyphicon glyphicon-th-list">
+                    </span>
+                    &nbsp;
+                    <?php echo $title ?>
+                        &nbsp;&nbsp;
+                        <span style="margin-top:-20px;margin-bottom:20px;text-align:center;font-size:12px;color:#666">
+                            提交订单数：
+                            <span class="blue"> <?php echo $count['total_orders']?>
+                            </span>
+                            &nbsp;&nbsp;订单总金额：
+                            <span class="blue">
+                                &yen;
+                                <?php echo number_format($count['total_money'],2, '.', '')?>
+                            </span>
+                            &nbsp;&nbsp;已付订单数：
+                            <span class="green"><?php echo $count['success_orders']?>
+                            </span>
+                            &nbsp;&nbsp;已付总金额：
+                            <span class="green">&yen;<?php echo number_format($count['success_money'],2, '.', '')?>
+                            </span>
+                            &nbsp;&nbsp;预计收入:<span class="green">&yen;<?php echo number_format($count['income_user'],2, '.', '')?>
+                            </span>
+                            &nbsp;&nbsp;未付订单数：
+                            <span class="red"> <?php echo $count['total_orders']-$count['success_orders'] ?>
+                            </span>
+                          未付总金额：
+                            <span class="red">&yen;<?php echo number_format($count['total_money']-$count['success_money'],2, '.', '')?>
+                            </span>
+                            &nbsp;&nbsp;
+                        </span>
+                </div>
+                <div class="col-sm-2 text-right red" style="font-size:12px">
+                    显示最近7天的数据&nbsp;&nbsp;
+                </div>
+            </div>
+        </div>
+        <div style="background:#e3f2fd;padding:20px 15px;border:1px solid #ddd;border-top:0">
+            <form class="form-inline" action="" method="get">
+                <div class="form-group">
+                    <select name="is_state" class="form-control">
+                        <option value="-1" <?php echo $search['is_state']=='-1' ? ' selected' : ''?>>全部
+                        </option>
+                        <option value="0" <?php echo $search['is_state']=='0' ? ' selected' : ''?>>未付款
+                        </option>
+                        <option value="1" <?php echo $search['is_state']=='1' ? ' selected' : ''?>>已付款
+                        </option>
+                    </select>
+                </div>
+                &nbsp;&nbsp;
+                <div class="form-group">
+                    <select class="form-control" name="accid">
+                        <option value="0">
+                            全部通道
+                        </option>
+                        <?php foreach($acc as $key=>
+                            $val):?>
+                            <option value="<?php echo $val['id']?>" <?php echo $val['id']==$search[
+                            'accid'] ? ' selected' : ''?>>
+                                <?php echo $val['name']?>
+                            </option>
+                            <?php endforeach;?>
+                    </select>
+                </div>
+                &nbsp;&nbsp;
+                <div class="form-group">
+                    <input type="text" class="form-control" name="sdorderno" placeholder="商户订单号"
+                    value="<?php echo $search['sdorderno']?>" size="15">
+                </div>
+                &nbsp;&nbsp;
+                <div class="form-group">
+                    <input type="text" class="form-control" name="sdpayno" placeholder="平台订单号"
+                    value="<?php echo $search['sdpayno']?>" size="15">
+                </div>
+                &nbsp;&nbsp;
+                <div class="form-group">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-calendar">
+                            </span>
+                        </span>
+                        <input size="16" type="text" name="fdate" readonly class="form_datetime form-control"
+                        value="<?php echo $search['fdate']?>">
+                        <span class="input-group-addon">
+                            至
+                        </span>
+                        <input size="16" type="text" name="tdate" readonly class="form_datetime form-control"
+                        value="<?php echo $search['tdate']?>">
+                    </div>
+                </div>
+                &nbsp;&nbsp;
+                <button type="submit" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-search">
+                    </span>
+                    &nbsp;立即查询
+                </button>
+            </form>
+        </div>
+        <?php if($search['is_state']=='1' ): ?>
+            <div class="cb-title">
+                <span class="glyphicon glyphicon-stats">
+                </span>
+                &nbsp;订单对比&nbsp;&nbsp;
+                <span style="margin-top:-20px;margin-bottom:20px;text-align:center;font-size:12px;color:#666">
+                    昨日此时订单：
+                    <span class="red">
+                        <?php echo $yestoday_orders ?>
+                    </span>
+                    &nbsp;&nbsp;今日此时订单：
+                    <span class="red">
+                        <?php echo $count['success_orders']?>
+                    </span>
+                    &nbsp;&nbsp;
+                    <?php echo ($result_order=$count['success_orders']-$yestoday_orders)>
+                        0 ? '
+                        <span class="green">
+                            ↑'.$result_order.'
+                        </span>
+                        ' : '
+                        <span class="red">
+                            ↓'.($yestoday_orders-$count['success_orders']).'
+                        </span>
+                        '?>&nbsp;&nbsp;昨日此时金额：
+                        <span class="red">
+                            <?php echo $yestoday_money['realmoney'] ?>
+                        </span>
+                        &nbsp;&nbsp;今日此时金额：
+                        <span class="red">
+                            <?php echo $count['success_money']?>
+                        </span>
+                        &nbsp;&nbsp;
+                        <?php echo ($result_money=$count['success_money']-$yestoday_money['realmoney'])>0 ? '<span class="green">↑'.$result_money.' </span>' : '<span class="red">↓'.($yestoday_money['realmoney']-$count['success_money']).'</span>'?>
+                </span>
+            </div>
+            <?php endif?>
+                <div class="content-box table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    订单时间
+                                </th>
+                                <th>
+                                    商户订单号
+                                </th>
+                                <th>
+                                    平台订单号
+                                </th>
+                                <th>
+                                    订单金额
+                                </th>
+                                <th>
+                                    实付金额
+                                </th>
+                                <th>
+                                    收入金额
+                                </th>
+                                <th>
+                                    付款渠道
+                                </th>
+                                <th>
+                                    订单状态
+                                </th>
+                                <th>
+                                    通知状态
+                                </th>
+                                <th>
+                                    通知
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php if($lists):?>
+                                <?php foreach($lists as $key=>$val):$orderinfo=$this->model()->select('remark')->from('orderinfo')->where(array('fields'=>'id=?','values'=>array($val['orderinfoid'])))->fetchRow();$remark=$orderinfo ? $orderinfo['remark'] : '-';$acc=$this->model()->select('name')->from('acc')->where(array('fields'=>'id=?','values'=>array($val['channelid'])))->fetchRow();$cname=$acc  ? $acc['name'] : '-';switch($val['is_state']){case 0: $state='
+                                    <span class="label label-warning">未付 </span>'; break;case 1: $state='<span class="label label-success"> 已付 </span>'; break;case 2: $state=' <span class="label label-danger">冻结</span>'; break;default:$state='-';}$notifyMsg='-';$notify=$this->model()->select('is_status')->from('ordernotify')->where(array('fields'=>'orid=?','values'=>array($val['id'])))->fetchRow();if($notify){switch($notify['is_status']){case '0': $notifyMsg='<span class="label label-warning">等待 </span>'; break;case '1': $notifyMsg=' <span class="label label-success">成功 </span>'; break;case '2': $notifyMsg='
+                                    <span class="label label-danger">失败</span>'; break;}}?>
+                                    <tr>
+                                        <td>
+                                            <?php echo date( 'm-d H:i:s',$val['addtime'])?>
+                                        </td>
+                                        <td>
+                                            <?php echo $val['sdorderno']?>
+                                                <br>
+                                                <span class="gray">
+                                                    <?php echo $remark ?>
+                                                </span>
+                                        </td>
+                                        <td>
+                                            <?php echo $val['orderid']?>
+                                        </td>
+                                        <td>
+                                            <?php echo $val['total_fee']?>
+                                        </td>
+                                        <td class="green">
+                                            <?php echo $val['realmoney']?>
+                                        </td>
+                                        <td class="green">
+                                            <?php echo $val['realmoney']*$val['uprice']?>
+                                        </td>
+                                        <td>
+                                            <?php echo $cname ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $state ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $notifyMsg ?>
+                                        </td>
+                                        <td>
+                                            <a href="javascript:;" onclick="refresh('<?php echo $val['orderid']?>')">
+                                                <span class="glyphicon glyphicon-refresh" data-toggle="tooltip" title="通知">
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <?php endforeach;?>
+                                        <?php else:?>
+                                            <tr>
+                                                <td colspan="10" class="text-center">
+                                                    no data.
+                                                </td>
+                                            </tr>
+                                            <?php endif;?>
+                        </tbody>
+                    </table>
+                    <?php if($lists):?>
+                        <div style="float:right">
+                            <?php echo $pagelist ?>
+                        </div>
+                        <br>
+                        <br>
+                        <?php endif;?>
+                </div>
+    </div>
+    <script>
+        function refresh(sdpayno) {
+            $.post('/member/orders/refresh', {
+                sdpayno: sdpayno,
+                t: new Date().getTime()
+            },
+            function(ret) {
+                alert(ret);
+            });
+        }
+    </script>
+    <?php require_once 'footer.php' ?>

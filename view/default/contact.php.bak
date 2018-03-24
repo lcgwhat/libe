@@ -1,0 +1,44 @@
+<?php require_once 'header.php' ?>
+    <section class="page-bg">
+        <div class="container contact">
+            <div class="page-bg-text">
+                <h1>
+                    联系我们
+                    <p>
+                        加入
+                        <?php echo $this->config['sitename']?>，有任何疑问请联系客服。
+                    </p>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 left">
+                    <?php require_once 'page_nav.php' ?>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 right">
+                    <div class="main-content">
+                 
+                     						  <strong>客户服务</strong>
+                <p>客服电话：<?php echo $this->config['tel']?></p>
+                <p>客服邮箱：<a href="mailto:<?php echo $this->config['email']?>"><?php echo $this->config['email']?></a></p>
+               <span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">在线客服： KK &nbsp;</span><span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">&gt; &nbsp;</span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=97781081&amp;site=qq&amp;menu=yes" style="font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;box-sizing:border-box;color:#337AB7;text-decoration:none;">97781081&nbsp;<img src="http://www.7foo.com/static/default/images/qq.png" alt="点击这里给我发消息" border="0" align="absmiddle" title="点击这里给我发消息" style="box-sizing:border-box;vertical-align:middle;" />&nbsp;</a><br style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;box-sizing:border-box;" />
+<span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">UP &nbsp;</span><span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">&gt; &nbsp;</span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=97781082&amp;site=qq&amp;menu=yes" style="font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;box-sizing:border-box;color:#337AB7;text-decoration:none;">97781082&nbsp;<img src="http://www.7foo.com/static/default/images/qq.png" alt="点击这里给我发消息" border="0" align="absmiddle" title="点击这里给我发消息" style="box-sizing:border-box;vertical-align:middle;" />&nbsp;</a><br style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;box-sizing:border-box;" />
+<span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">&nbsp; &nbsp; &nbsp; &nbsp;</span><span style="color:#333333;font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;">晓晓 &gt; &nbsp;</span><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=97781083&amp;site=qq&amp;menu=yes" style="font-family:&quot;font-size:14px;white-space:normal;background-color:#FFFFFF;box-sizing:border-box;color:#337AB7;text-decoration:none;">97781083&nbsp;<img src="http://www.7foo.com/static/default/images/qq.png" alt="点击这里给我发消息" border="0" align="absmiddle" title="点击这里给我发消息" style="box-sizing:border-box;vertical-align:middle;" /></a>
+				<p>如果您在使用柒付云计费或网购消费过程中产生任何疑问，请及时联系我们。</p></br>
+				<strong>商务洽谈</strong>
+				<p>地址:<?php echo $this->config['address']?></p>
+				<p>邮编：518000</p>
+				<p>商务合作（9:00-18:00）&nbsp;&nbsp;KK： <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $this->config['qq']?>&site=qq&menu=yes">
+                                <?php echo $this->config['qq']?>&nbsp;
+                                    <img src="/static/default/images/qq.png" alt="点击这里给我发消息" border="0" align="absmiddle"
+                                    title="点击这里给我发消息"></a></p>
+				<p>柒付助你秒开发，10分钟快速接入支付功能，接入柒付就等于接入100多家支付机构...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php require_once 'footer.php' ?>

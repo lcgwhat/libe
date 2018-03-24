@@ -1,0 +1,11 @@
+<?php
+/*
+*****************************************************************************
+# 本程序(WoodyApp)属商业用程序，任何个人或组织不得二次销售，违者将负法律责任！
+# 2016-07 v2.0
+# 程序作者:yang0 7136cf952242237d9fc363df4a71da2af3d973d9
+# 支持邮箱:yang0@outlook.com QQ:859926053
+# 以上声明,必须永久保留,否则将无法为您提供售后支持!
+*****************************************************************************
+*/
+namespace WY\app\controller;use WY\app\libs\Model;use WY\app\model\Pushorder;if(!defined('WY_ROOT'))exit;class ordernotify extends Model{public function index(){$stime=time();$days=time()-60*60*3;$orders=$this->model()->select('id,orderid')->from('orders')->where(array('fields'=>'is_notify<>? and is_state=? and addtime>=?','values'=>array(1,1,$days)))->fetchAll();if($orders){foreach($orders as $key=>$val){$o=$this->model()->select('times,nexts,addtime')->from('ordernotify')->where(array('fields'=>'orid=? and times<3 and is_status<>?','values'=>array($val['id'],3,1)))->fetchRow();if($o && ($o['addtime']+$o['nexts'])<=time()){$push=new Pushorder($val['orderid']);$push->notify();}}}$etime=time();$time=$etime-$stime;echo json_encode(array('status'=>1,'stime'=>date('Y-m-d H:i:s',$stime),'etime'=>date('Y-m-d H:i:s',$etime),'time'=>$time));}}?>

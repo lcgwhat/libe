@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d20427b-bfe0-41e2-b281-4579fc852a03" name="默认" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="106" column="92" lean-forward="false" selection-start-line="106" selection-start-column="70" selection-end-line="106" selection-end-column="92" />
+              <folding>
+                <element signature="e#250#270#0#PHP" expanded="true" />
+                <marker date="1521794623820" expanded="true" signature="3840:3997" ph="..." />
+                <marker date="1521794623820" expanded="true" signature="3847:3902" ph="..." />
+                <marker date="1521794623820" expanded="true" signature="3909:3997" ph="..." />
+                <marker date="1521794623820" expanded="false" signature="3925:3941" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phpqrcode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/phpqrcode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-351">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding>
+                <marker date="1286478728981" expanded="true" signature="9714:9882" ph="..." />
+                <marker date="1286478728981" expanded="false" signature="9754:9784" ph="..." />
+                <marker date="1286478728981" expanded="false" signature="9809:9826" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="10031:10047" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="10357:10532" ph="..." />
+                <marker date="1286478728981" expanded="false" signature="10386:10412" ph="..." />
+                <marker date="1286478728981" expanded="false" signature="10425:10441" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="31808:31814" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="31814:31820" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32186:32192" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32192:32198" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32198:32204" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32204:32210" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32210:32216" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32216:32222" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32222:32228" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32228:32234" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32562:32568" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32664:32671" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="32766:32772" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="32868:32875" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="32970:32977" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="33083:33090" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="33196:33203" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="33312:33318" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="33424:33431" ph="..." />
+                <marker date="1286478728981" expanded="true" signature="33536:33542" ph=" " />
+                <marker date="1286478728981" expanded="true" signature="33648:33655" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/send.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dongtaimiyao.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/dongtaimiyao.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tongyixiadan.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/tongyixiadan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>curl</find>
+      <find>ordernotify</find>
+      <find>orderin</find>
+      <find>curlRequest</find>
+      <find>202</find>
+      <find>$url</find>
+      <find>txnAmt</find>
+      <find>transCurrency</find>
+      <find>$orderId</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/juhe_pay" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pay/swift_tongming/Swiftpay.class.php" />
+        <option value="$PROJECT_DIR$/tongmingPay/pay.php" />
+        <option value="$PROJECT_DIR$/pay/swift_tongming/notifyUrl.php" />
+        <option value="$PROJECT_DIR$/demo/pay.php" />
+        <option value="$PROJECT_DIR$/app/woodyapp.php" />
+        <option value="$PROJECT_DIR$/app/controller/main.php" />
+        <option value="$PROJECT_DIR$/app/libs/Router.php" />
+        <option value="$PROJECT_DIR$/app/controller/forgot.php" />
+        <option value="$PROJECT_DIR$/notifyTest.php" />
+        <option value="$PROJECT_DIR$/pay/swift_tongming/shiming.php" />
+        <option value="$PROJECT_DIR$/app/Config.php" />
+        <option value="$PROJECT_DIR$/app/controller/cdsmd/acc.php" />
+        <option value="$PROJECT_DIR$/app/controller/api.php" />
+        <option value="$PROJECT_DIR$/pay/zhihui_tongming/inc.php" />
+        <option value="$PROJECT_DIR$/yunjie_1/getMy.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_qqwallet/des3.php" />
+        <option value="$PROJECT_DIR$/app/controller/apilunjiepay.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_qqwallet/Int.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_qqwallet/Dkey.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_qqwallet/dtmy.php" />
+        <option value="$PROJECT_DIR$/pay/zhihui_tongming/Swiftpay.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Int.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Dkey.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Int.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Confirm.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Base.php" />
+        <option value="$PROJECT_DIR$/app/controller/apiyunjiepay.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/inc.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/dtmy.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Des3.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Order.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Payment.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_q/Dkey.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/inc.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/Base.class.php" />
+        <option value="$PROJECT_DIR$/app/controller/api123.php" />
+        <option value="$PROJECT_DIR$/app/controller/apishiming.php" />
+        <option value="$PROJECT_DIR$/demo1/bandup.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/Base1.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/dongtaimiyao.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/shengqingpay.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/tongyixiadan.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_1111/send.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/shengqingpay.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/tongyixiadan.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/Base1.class.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/tongbuno.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/dongtaimiyao.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/send.php" />
+        <option value="$PROJECT_DIR$/sha1.php" />
+        <option value="$PROJECT_DIR$/pay/yunjie_yunjie/notify.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-14" />
+    <option name="width" value="1382" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="libei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libei" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="libei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libei" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="libei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="libei" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="pay" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="yunjie_yunjie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\AppServ\www\libei\app\libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AppServ\www\libei\pay\swift_tongming" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d20427b-bfe0-41e2-b281-4579fc852a03" name="默认" comment="" />
+      <created>1520317890447</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520317890447</updated>
+      <workItem from="1520317898542" duration="11855000" />
+      <workItem from="1520386389052" duration="22326000" />
+      <workItem from="1520472922712" duration="24486000" />
+      <workItem from="1520559045026" duration="23137000" />
+      <workItem from="1520818497813" duration="23202000" />
+      <workItem from="1520863522676" duration="450000" />
+      <workItem from="1520904695130" duration="13801000" />
+      <workItem from="1521093566887" duration="5473000" />
+      <workItem from="1521166219273" duration="2505000" />
+      <workItem from="1521531046099" duration="6289000" />
+      <workItem from="1521622770926" duration="4782000" />
+      <workItem from="1521683286414" duration="25070000" />
+      <workItem from="1521713228478" duration="764000" />
+      <workItem from="1521724357645" duration="7096000" />
+      <workItem from="1521769087751" duration="2627000" />
+      <workItem from="1521771823924" duration="22468000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="203649000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="0" width="1382" height="733" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pay/alipay_bank/notify_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/alipay_bank/inc.php.bak">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/alipay_bank/inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/alipay_bank/return_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Int.class.php" />
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/test.txt" />
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/SwiftBand.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1485">
+          <caret line="60" column="33" lean-forward="false" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Confirm.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/Std3Des.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Des3.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Payment.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Order.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/dtmy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_q/Dkey.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/band.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/abc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/api123.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/apishiming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/band.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/bandup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="129" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/Swiftpay.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1431">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/quickPay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1701">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/apisubmit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4563">
+          <caret line="170" column="18" lean-forward="false" selection-start-line="170" selection-start-column="7" selection-end-line="170" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/swift_alipaywap/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="86" column="9" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="86" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/L4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/swift_weixin2/notifyUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/apiyunjiepay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/swift_wxh5/notifyUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/swift_wxh5/Swiftpay.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/superglobals/_superglobals.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/notifyUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/shiming.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/Base1.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/wft_qq/Swiftpay.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/tongbuno.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sha1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/notify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/wft_qq/notifyUrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/shengqingpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/zhihui_tongming/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/dongtaimiyao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="27" column="25" lean-forward="false" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="106" column="92" lean-forward="false" selection-start-line="106" selection-start-column="70" selection-end-line="106" selection-end-column="92" />
+          <folding>
+            <element signature="e#250#270#0#PHP" expanded="true" />
+            <marker date="1521794623820" expanded="true" signature="3840:3997" ph="..." />
+            <marker date="1521794623820" expanded="true" signature="3847:3902" ph="..." />
+            <marker date="1521794623820" expanded="true" signature="3909:3997" ph="..." />
+            <marker date="1521794623820" expanded="false" signature="3925:3941" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/phpqrcode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <marker date="1286478728981" expanded="true" signature="9714:9882" ph="..." />
+            <marker date="1286478728981" expanded="false" signature="9754:9784" ph="..." />
+            <marker date="1286478728981" expanded="false" signature="9809:9826" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="10031:10047" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="10357:10532" ph="..." />
+            <marker date="1286478728981" expanded="false" signature="10386:10412" ph="..." />
+            <marker date="1286478728981" expanded="false" signature="10425:10441" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="31808:31814" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="31814:31820" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32186:32192" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32192:32198" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32198:32204" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32204:32210" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32210:32216" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32216:32222" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32222:32228" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32228:32234" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32562:32568" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32664:32671" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="32766:32772" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="32868:32875" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="32970:32977" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="33083:33090" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="33196:33203" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="33312:33318" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="33424:33431" ph="..." />
+            <marker date="1286478728981" expanded="true" signature="33536:33542" ph=" " />
+            <marker date="1286478728981" expanded="true" signature="33648:33655" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay/yunjie_yunjie/tongyixiadan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="35" column="16" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

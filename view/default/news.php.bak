@@ -1,0 +1,47 @@
+<?php require_once 'header.php' ?>
+    <style>
+        .news li{border-bottom:1px dotted #ddd;line-height: 40px}.news li a{display:block}.news
+        li a span{color:#8392A7;margin-right:10px;font-size: 12px}
+    </style>
+    <section class="page-bg">
+        <div class="container newsbg">
+            <div class="page-bg-text">
+                <h1>
+                    行业动态
+                    <p>
+                        及时了解
+                        <?php echo $this->config['sitename']?>动态，关注我们的发展。
+                    </p>
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-3 left">
+                    <?php require_once 'page_nav.php' ?>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-9 right">
+                    <div class="main-content">
+                       
+                        <ul class="news">
+                            <?php if($news):?>
+                                <?php foreach($news as $key=>$val):?>
+                                    <li>
+                                        <a href="/news/view/<?php echo $val['id']?>">
+                                            <span>
+                                                <?php echo date( 'Y-m-d H:i:s',$val[ 'addtime'])?>
+                                            </span>
+                                            <?php echo $val[ 'title']?>
+                                        </a>
+                                    </li>
+                                    <?php endforeach;?>
+                                        <?php endif;?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <?php require_once 'footer.php' ?>

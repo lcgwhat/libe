@@ -1,0 +1,75 @@
+<?php if(!defined('WY_ROOT'))exit; ?>
+<div id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-4 hidden-xs">
+                <p><img src="/static/default/images/logo-footer.png"></p>
+				<p>深圳奇咖网络科技有限公司</p>
+                <p>电话： <?php echo $this->config['tel']?></p>
+				<p>企业客服：<img src="/static/default/images/icon-qq.png"> <?php echo $this->config['qq']?></p>
+				<p>公司地址：<?php echo $this->config['address']?></p>
+            </div>
+
+            <div class="a col-md-3 col-sm-3 col-xs-4">
+                <dl>
+                    <dt>动态</dt>
+         <?php $news=$this->model()->select()->from('arlist')->where(array('fields'=>'cid=? and is_state=?','values'=>array(3,1)))->limit(5)->orderby('id desc')->fetchAll();if($news):?>
+                            <?php foreach($news as $key=>
+                                $val):?>
+                                <dd>
+                                    <a href="/news/view/<?php echo $val['id']?>" title="<?php echo $val['title']?>">
+                                        <?php echo $this->
+                                            res->subString($val['title'],0,16)?>
+                                    </a>
+                                </dd>
+                                <?php endforeach;?>
+                                    <?php endif;?>
+                                                            </dl>
+            </div>
+
+            <div class="col-md-3 col-sm-3 hidden-xs">
+                <dl>
+                    <dt>关于</dt>
+                    <dd><a href="/about">公司介绍</a></dd>
+					<dd><a href="/news">新闻公告</a></dd>
+                    <dd><a href="/jobs">人才招聘</a></dd>
+					 <dd><a href="/help">帮助中心</a></dd>
+                    <dd><a href="/contact">联系我们</a></dd>
+                </dl>
+            </div>
+
+            <div class="col-md-3 col-sm-3 col-xs-4">
+                <dl>
+                   <dt>协议</dt>
+                        <dd><a href="/agreement">商户服务协议 </a></dd>
+                        <dd><a href="/customers">消费者协议</a></dd>
+                        <dd><a href="/copyright">版权声明 </a></dd>
+                        <dd><a href="/terms">网站隐私条款</a></dd>
+						<dd><a href="/statement">免责声明</a></dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    
+
+<div id="footer">
+<center>
+
+© Copyright 2016-2017  <?php echo $this->config['sitename']?> All rights reserved <br>
+<a href="http://www.miibeian.gov.cn/" target="_blank"><?php echo $this->config['icpcode']?></a>
+
+<a href="http://sq.ccm.gov.cn:80/ccnt/sczr/service/business/emark/toDetail/e5286abb4c4545fcbeec7e2935815e63" target="_blank"><img src="/static/default/images/wenhuajingying.png" style="width:40px;height:40px"></a>  
+<?php if($_SERVER["HTTP_HOST"]=='www.7foo.com'): ?>
+<a key ="58aaaaf9efbfb05568780570"  logo_size="60x40"  logo_type="realname"  href="http://www.anquan.org" ><script src="//static.anquan.org/static/outer/js/aq_auth.js"></script></a>
+
+<?php elseif($_SERVER["HTTP_HOST"]=='www.i7ka.com'): ?>
+<a  key ="58a121b5efbfb019027574cb"  logo_size="60x40"  logo_type="realname"  href="http://www.anquan.org" ><script src="//static.anquan.org/static/outer/js/aq_auth.js"></script></a>
+<?php endif;?>
+</center></div>
+<div style="display:none"><?php echo $this->config['stacode'] ?></div>
+
+
+</body></html>
