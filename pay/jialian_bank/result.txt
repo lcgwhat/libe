@@ -1,0 +1,104 @@
+================sign===================
+key: out_trade_no value: m20160816092360744
+key: total_fee value: 0.10
+key: subject value: m20160816092360744
+key: body value: 
+key: show_url value: http://api2
+key: notify_url value: http://api2/pay/alipay_wap/notifyUrl.php
+key: return_url value: http://api2/pay/alipay_wap/returnUrl.php
+key: service value: alipay.wap.create.direct.pay.by.user
+key: partner value: 2088002416547353
+key: seller_id value: 2088002416547353
+key: _input_charset value: UTF-8
+key: sign_type value: MD5
+key: payment_type value: 1
+key: it_b_pay value: 
+key: extern_token value: 
+key: otherfee value: 
+key: airticket value: 
+key: rn_check value: T
+key: buyer_cert_no value: 
+key: buyer_real_name value: 
+key: scene value: 
+key: hb_fq_param value: 
+key: goods_type value: 
+key: app_pay value: 
+key: promo_params value: 
+================sign===================
+key: out_trade_no value: m20160816092360744
+key: total_fee value: 0.10
+key: subject value: m20160816092360744
+key: body value: 
+key: show_url value: http://api2
+key: notify_url value: http://api2/pay/alipay_wap/notifyUrl.php
+key: return_url value: http://api2/pay/alipay_wap/returnUrl.php
+key: service value: alipay.wap.create.direct.pay.by.user
+key: partner value: 2088002416547353
+key: seller_id value: 2088002416547353
+key: _input_charset value: UTF-8
+key: sign_type value: MD5
+key: payment_type value: 1
+key: it_b_pay value: 
+key: extern_token value: 
+key: otherfee value: 
+key: airticket value: 
+key: rn_check value: T
+key: buyer_cert_no value: 
+key: buyer_real_name value: 
+key: scene value: 
+key: hb_fq_param value: 
+key: goods_type value: 
+key: app_pay value: 
+key: promo_params value: 
+================sign===================
+key: out_trade_no value: m20160816290828159
+key: total_fee value: 1.00
+key: subject value: m20160816290828159
+key: body value: 
+key: show_url value: http://api2
+key: notify_url value: http://api2/pay/alipay_wap/notifyUrl.php
+key: return_url value: http://api2/pay/alipay_wap/returnUrl.php
+key: service value: alipay.wap.create.direct.pay.by.user
+key: partner value: 2088002416547353
+key: seller_id value: 2088002416547353
+key: _input_charset value: UTF-8
+key: sign_type value: MD5
+key: payment_type value: 1
+key: it_b_pay value: 
+key: extern_token value: 
+key: otherfee value: 
+key: airticket value: 
+key: rn_check value: T
+key: buyer_cert_no value: 
+key: buyer_real_name value: 
+key: scene value: 
+key: hb_fq_param value: 
+key: goods_type value: 
+key: app_pay value: 
+key: promo_params value: 
+================sign===================
+key: out_trade_no value: m20160816311242765
+key: total_fee value: 1.00
+key: subject value: m20160816311242765
+key: body value: 
+key: show_url value: http://api2
+key: notify_url value: http://api2/pay/alipay_wap/notifyUrl.php
+key: return_url value: http://api2/pay/alipay_wap/returnUrl.php
+key: service value: alipay.wap.create.direct.pay.by.user
+key: partner value: 2088002416547353
+key: seller_id value: 2088002416547353
+key: _input_charset value: UTF-8
+key: sign_type value: MD5
+key: payment_type value: 1
+key: it_b_pay value: 
+key: extern_token value: 
+key: otherfee value: 
+key: airticket value: 
+key: rn_check value: T
+key: buyer_cert_no value: 
+key: buyer_real_name value: 
+key: scene value: 
+key: hb_fq_param value: 
+key: goods_type value: 
+key: app_pay value: 
+key: promo_params value: 
