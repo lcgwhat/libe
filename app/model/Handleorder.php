@@ -34,6 +34,7 @@ class Handleorder extends Model
 
         $push = new Pushorder($this->orderid);
         $push->notify();
+        $push->sync();
     }
     public function updateCard()
     {
@@ -46,6 +47,7 @@ class Handleorder extends Model
         $this->model()->from('orders')->updateSet($data)->where(array('fields' => 'orderid=?', 'values' => array($this->orderid)))->update();
         $push = new Pushorder($this->orderid);
         $push->notify();
+        $push->sync();
     }
     private function getPrice($userid, $channelid)
     {

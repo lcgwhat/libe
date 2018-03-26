@@ -7,7 +7,6 @@
  */
 require_once '../../app/init.php';
 use WY\app\woodyapp;
-
 $app=woodyapp::getInstance();
 $ChannelID= '6600000000000232';
 $bmMerId= '6600000000000232';

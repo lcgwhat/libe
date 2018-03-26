@@ -7,7 +7,7 @@
  */
 require_once 'inc.php';
 use WY\app\model\Handleorder;
-
+use WY\app\model\Pushorder;
 $data=file_get_contents('php://input');
 file_put_contents('notify.txt',$data);
 

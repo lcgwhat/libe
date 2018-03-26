@@ -44,7 +44,7 @@
                     实际余额：
                 </td>
                 <td>
-                    <?php echo number_format($unpaid, '2', '.', '')?> 
+                    <?php echo number_format($user['unpaid'], '2', '.', '')?>
                         元
                 </td>
 			

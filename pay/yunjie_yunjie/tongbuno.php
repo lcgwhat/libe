@@ -6,6 +6,7 @@
  * Time: 16:18
  */
 require_once 'inc.php';
+use WY\app\model\Pushorder;
 $charCode=isset( $_GET['charCode'])?$_GET['charCode']:'';
 $Version=isset($_GET['Version'])?$_GET['Version']:'';
 $ChannelID=isset($_GET['ChannelID'])?$_GET['ChannelID']:'';
@@ -23,3 +24,6 @@ $srt=$charCode.$Version.$ChannelID.$bmMerId.$timeStamp.$orderId.$platOrderId.$tx
 $data=file_get_contents('php://input');
 file_put_contents('notify4.txt',$data);
 file_put_contents('notify6.txt',$srt);
+
+$push=new Pushorder($orderId);
+$push->sync();
