@@ -8,13 +8,13 @@
 require_once 'inc.php';
 require_once 'Base1.class.php';
 require_once 'dongtaimiyao.php';
-require_once 'tongyixiadan.php';
-require_once 'shengqingpay.php';
+require_once 'Base1.class.php';
 use WY\app\libs\Xml;
 use WY\app\libs\Std3Des;
 if (!defined('WY_ROOT')) {
     exit;
 }
+$base=new Base1();
 $submitdata=isset($_GET['submitdata'])?$_GET['submitdata']:'';
 $STD3=new Std3Des("68b2dc377jlt0vewl4u9g4nc","12345678");
 $data=$STD3->decrypt($submitdata);
@@ -101,7 +101,9 @@ $oinfo=array(
     'md5key'=>$md5key
 );
 
-$url=tongyixiadan($oinfo,$resKey);
+
+ $re   =$base->todo($oinfo,$resKey);
+$url=urldecode($re->qrcode);
 if(!$url)
 {
     echo json_encode(array('resultCode'=>'01','resultDesc'=>'统一下单错误'),JSON_UNESCAPED_UNICODE);

@@ -74,7 +74,11 @@ class api extends Controller
             exit;
         }
         //通过用户编号获取用户信息
-        $this->userData = $this->model()->select()->from('users')->where(array('fields' => 'id=?', 'values' => array($customerid)))->fetchRow();
+        $this->userData = $this->model()->select()->from('users')->where(array('fields' => 'id=?', 'values' => array(
+
+
+
+        )))->fetchRow();
         /*商户不存在*/
         if (!$this->userData) {
             echo $this->ret->put('001', $cardnum ? true : false);

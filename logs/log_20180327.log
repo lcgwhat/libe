@@ -1,0 +1,80 @@
+/index.php
+/controller/style load fail.
+2018-03-27 10:08:40
+::1
+
+/index.php
+/controller/style load fail.
+2018-03-27 10:08:40
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 10:08:54
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 10:09:44
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 10:13:23
+::1
+
+/index.php
+/controller/apisubmit_yunjie_df load fail.
+2018-03-27 13:30:35
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 14:10:44
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 14:11:09
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'returnurl' cannot be null
+INSERT INTO wy_orderinfo (userid,paytype,bankcode,notifyurl,returnurl,remark,addtime,settAccNoName,settAccNo,phone,accNo,idNo,settPhone) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)
+[file]F:\AppServ\www\WY\libe\app\libs\Model.php
+[line]187
+[class]WY\app\libs\Db
+2018-03-27 14:14:28
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sdorderno' cannot be null
+INSERT INTO wy_orders (userid,agentid,orderid,sdorderno,total_fee,channelid,addtime,lastime,is_paytype,orderinfoid) VALUES(?,?,?,?,?,?,?,?,?,?)
+[file]F:\AppServ\www\WY\libe\app\libs\Model.php
+[line]187
+[class]WY\app\libs\Db
+2018-03-27 14:22:56
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'sdorderno' cannot be null
+INSERT INTO wy_orders (userid,agentid,orderid,sdorderno,total_fee,channelid,addtime,lastime,is_paytype,orderinfoid) VALUES(?,?,?,?,?,?,?,?,?,?)
+[file]F:\AppServ\www\WY\libe\app\libs\Model.php
+[line]187
+[class]WY\app\libs\Db
+2018-03-27 14:27:58
+::1
+
+/index.php
+/controller/pay load fail.
+2018-03-27 14:33:49
+::1
+
+/index.php
+/controller/pay load fail.
+2018-03-27 14:36:41
+::1
+

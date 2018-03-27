@@ -5,9 +5,31 @@
  * Date: 2018/3/22
  * Time: 16:46
  */
-
+use WY\app\libs\Xml;
+use WY\app\libs\Http;
 class Base1
 {
+
+    function __construct()
+    {
+        $this->res=new Xml();
+    }
+
+    public function todo($arr,$key)
+    {
+        $oinfo=$this->tomd5($arr);
+        $pay2=$this->res->toXml($oinfo);
+        $data2=$this->encrypt($pay2,$key,$oinfo['ChannelID']);
+        $url2='http://47.100.1.24/UserAuth';
+        $method2='POST';
+        $payinfo2=$this->curlRequest($url2,$method2,$data2);
+        $in2=substr($payinfo2,20);
+        $rinfo2=$this->decrypt($in2,$key);
+        file_put_contents('pay2.txt',$rinfo2);
+        libxml_disable_entity_loader(true);
+        $re=simplexml_load_string($rinfo2,'SimpleXMLElement',LIBXML_NOCDATA);
+        return $re;
+    }
     public function tomd5($arr)
     {
         $str='';
@@ -66,9 +88,6 @@ class Base1
         }
         return substr($text, 0, -1 * $pad);
     }
-
-
-
     /*curl函数请求数据*/
     public function curlRequest($url,$method,$data){
         $curl=curl_init();

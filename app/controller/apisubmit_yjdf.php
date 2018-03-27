@@ -1,4 +1,11 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2018/3/27
+ * Time: 12:59
+ */
+
 namespace WY\app\controller;
 
 use WY\app\libs\Controller;
@@ -10,7 +17,7 @@ if (!defined('WY_ROOT')) {
  * class：apisubmit
  *
  **/
-class apisubmit_yunjie extends api_yunjie
+class apisubmit_yjdf extends api_yunjiedaifu
 {
     public function index()
     {
@@ -25,22 +32,15 @@ class apisubmit_yunjie extends api_yunjie
             }
         }
         //签名校验
-        $signStr = 'customerid=' . $customerid .'&orderId=' . $sdorderno . '&tranType=' . $tranType . '&createIp=' . $createIp . '&txnAmt=' . $txnAmt . '&retUrl=' . $retUrl . '&merUrl=' . $merUrl .'&cardByName=' . $cardByName .'&cardByNo=' . $cardByNo .'&cerNumber=' . $cerNumber .'&mobile=' . $mobile . '&' . $this->userData['apikey'];
-        $mysign = md5($signStr);
+
+        $mysign =md5( 'customerid=' . $customerid .'&orderId=' . $orderId . '&txnAmt=' . $txnAmt . '&acctType=' . $acctType . '&acctName=' . $acctName . '&acctNo=' . $acctNo .'&bankSettNo=' . $bankSettNo .'&retUrl=' . $retUrl  . '&' . $this->userData['apikey']);
+
+
         if ($md5ConSec != $mysign) {
             echo $this->ret->put('201', $cardnum ? true : false);
             exit;
         }
-
-        switch ($paytype) {
-
-            case 'yunjie':
-                $this->submit();
-                break;
-            default:
-                echo $this->ret->put('106', $cardnum ? true : false);
-                exit;
-        }
+        $this->submit();
     }
     /*
      * 参数说明：$paytype   --  支付方式
@@ -50,7 +50,7 @@ class apisubmit_yunjie extends api_yunjie
     {
         extract($this->params);
 
-        $bankcode = $paytype == 'bank' ? $bankcode : $paytype;
+       $bankcode = $paytype == 'bank' ? $bankcode : $paytype;
 
         /* 判断是否订单重复*/
         if ($this->model()->select()->from('orders')->where(array('fields' => 'userid=? and sdorderno=?', 'values' => array($this->userData['id'], $orderId)))->count()) {
@@ -95,17 +95,17 @@ class apisubmit_yunjie extends api_yunjie
             'paytype' => $paytype,
             'bankcode' => isset($bankcode)?$bankcode:'',
             'notifyurl' => $retUrl,
-            'returnurl' => $merUrl,
+            'returnurl' => '',
             'remark' => isset($remark)?$remark:'',
             'addtime' => $addtime,
-            'settAccNoName'=> $cardByName,
-            'settAccNo'=>$cardByNo,
-            'phone' =>$mobile,
-            'accNo' =>$cardByNo,
-            'idNo' =>$cerNumber,
-            'settPhone'=>$mobile
+            'settAccNoName'=> $acctName,
+            'settAccNo'=>$acctNo,
+            'phone' =>'',
+            'accNo' =>$acctNo,
+            'idNo' =>'',
+            'settPhone'=>''
         );
-        // var_dump($orderinfo);exit;
+//         var_dump($orderinfo);exit;
 
         /*在数据库中记录用户提交上来订单信息*/
 
@@ -115,7 +115,7 @@ class apisubmit_yunjie extends api_yunjie
         }
 
         /*平台订单信息*/
-        $orderdata = array('userid' => $customerid, 'agentid' => $this->userData['superid'], 'orderid' => $orderid, 'sdorderno' => $sdorderno, 'total_fee' => $txnAmt, 'channelid' => $channelid, 'addtime' => $addtime, 'lastime' => $addtime, 'is_paytype' => 0, 'orderinfoid' => $orderinfoid);
+        $orderdata = array('userid' => $customerid, 'agentid' => $this->userData['superid'], 'orderid' => $orderid, 'sdorderno' => $orderId, 'total_fee' => $txnAmt, 'channelid' => $channelid, 'addtime' => $addtime, 'lastime' => $addtime, 'is_paytype' => 0, 'orderinfoid' => $orderinfoid);
 
         /*在数据库中生成平台订单*/
         if (!($orid = $this->model()->from('orders')->insertData($orderdata)->insert())) {
@@ -132,38 +132,14 @@ class apisubmit_yunjie extends api_yunjie
 
         /*重定向地址*/
         $submit_data_old = array(
-            'TradeType' => $TradeType,
-            'timeStamp' =>  $timeStamp,
-            'orderId' => $orderid,  //订单号
-            'tranType' => $tranType, //交易类型
-            'createIp' => $createIp, //用户ip
-
+            'acctType' => $acctType,
+            'timeStamp' =>  $addtime,
+            'orderId' => $orid,  //订单号
             'txnAmt' => $txnAmt,  //交易金额
-            'authCode' => $authCode,
+            'acctName' => $acctName, //姓名
             'retUrl' => $retUrl, //异步通知地址
-            'merUrl' => $merUrl, //同步通知地址
-            'cardByName' => $cardByName, //持卡人姓名
-
-            'cardByNo' => $cardByNo,    //卡号
-            'cerNumber' => $cerNumber, //身份证号
-            'mobile'=>$mobile,   //手机号码
-            'productName' => $productName,
-            'productDesc' => $productDesc,
-
-            'subMerNo' => $subMerNo,
-            'subMerName' => $subMerName,
-            'metaOption' => $metaOption,
-            'fileId1' => $fileId1,
-            'cardType' => $cardType,
-
-            'expireDate' => $expireDate,
-            'CVV' => $CVV,
-            'bankCode' => $bankCode,
-            'openBankName' => $openBankName,
-            'cerType' => $cerType,
-            'rcvName' => $rcvName,
-            'rcvMobile' => $rcvMobile,
-            'rcvAdress' => $rcvAdress
+            'acctNo' => $acctNo, //卡号
+            'bankSettNo' => $bankSettNo, //持卡人姓名
         );
 
         $submit_data_json=json_encode($submit_data_old);  //将数组转为json格式
@@ -171,7 +147,7 @@ class apisubmit_yunjie extends api_yunjie
         $submit_data=$des3Util->encrypt($submit_data_json);
         $submitdata=urlencode($submit_data);
 
-        $url = 'http://' . $this->req->server('HTTP_HOST') . '/pay/' . $acpcode . '_' . $gateway . '/send.php';
+        $url = 'http://' . $this->req->server('HTTP_HOST') . '/pay/' . 'yunjie'. '_' . 'yunjie' . '/daifu.php';
         $url .= '?submitdata=' . $submitdata;
         $this->res->redirect($url);  // 订单确认无误后，重定向到发送请求页面
     }
