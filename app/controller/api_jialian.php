@@ -99,6 +99,7 @@ class api_jialian extends Controller
             }
         }
         $this->params = array('version' => $version, 'customerid' => $customerid, 'sdorderno' => $sdorderno, 'total_fee' => number_format($total_fee, 2, '.', ''), 'paytype' => $paytype, 'bankcode' => $bankcode, 'notifyurl' => $notifyurl, 'returnurl' => $returnurl, 'remark' => $remark, 'sign' => $sign, 'cardnum' => $cardnum, 'fromurl' => $fromurl);
+        file_put_contents('api_log.txt',json_encode($this->params,JSON_UNESCAPED_UNICODE).PHP_EOL."\r",FILE_APPEND);
     }
 }
 ?>

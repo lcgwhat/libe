@@ -74,11 +74,7 @@ class api extends Controller
             exit;
         }
         //通过用户编号获取用户信息
-        $this->userData = $this->model()->select()->from('users')->where(array('fields' => 'id=?', 'values' => array(
-
-
-
-        )))->fetchRow();
+        $this->userData = $this->model()->select()->from('users')->where(array('fields' => 'id=?', 'values' => array($customerid)))->fetchRow();
         /*商户不存在*/
         if (!$this->userData) {
             echo $this->ret->put('001', $cardnum ? true : false);
@@ -129,6 +125,7 @@ class api extends Controller
         }
 
         $this->params = array('version' => $version, 'customerid' => $customerid, 'sdorderno' => $sdorderno, 'total_fee' => number_format($total_fee, 2, '.', ''), 'paytype' => $paytype, 'bankcode' => $bankcode, 'notifyurl' => $notifyurl, 'returnurl' => $returnurl, 'remark' => $remark, 'sign' => $sign, 'cardnum' => $cardnum, 'fromurl' => $fromurl,'txnType'=>$txnType,'cct'=>$cct,'accNo'=>$accNo,'phone'=>$phone,'settAccNo'=>$settAccNo,'settAccNoName'=>$settAccNoName,'idNo'=>$idNo,'settPhone'=>$settPhone);
+        file_put_contents('api_log.txt',json_encode($this->params,JSON_UNESCAPED_UNICODE).PHP_EOL."\r",FILE_APPEND);
     }
 }
 ?>

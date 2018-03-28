@@ -184,6 +184,7 @@ class api_yunjie extends Controller
             'cardnum' => $cardnum,
             'fromurl' => $fromurl
         );
+        file_put_contents('api_log.txt',json_encode($this->params,JSON_UNESCAPED_UNICODE).PHP_EOL."\r",FILE_APPEND);
     }
 }
 ?>

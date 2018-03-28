@@ -31,7 +31,7 @@ $sign=md5('version='.$version.'&customerid='.$customerid.'&total_fee='.$total_fe
     <title>正在转到付款页</title>
 </head>
 <body onLoad="document.pay.submit()">
-<form name="pay" action="http://jhzf.ilibei.com/apisubmit" method="post">
+<form name="pay" action="http://localhost/apisubmit" method="post">
     <input type="hidden" name="is_qrcode" value="1">
 
     <input type="hidden" name="version" value="<?php echo $version?>">

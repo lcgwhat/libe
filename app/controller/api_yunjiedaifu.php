@@ -25,6 +25,7 @@ class api_yunjiedaifu extends Controller
         }
         $this->ret = new Retmsg();//返回信息类实例
        // $version = '1.0';
+        $cardnum = $this->req->request('cardnum');
         $customerid = $this->req->request('customerid');//商户号
         $orderId = $this->req->request('orderId'); //
         $timeStamp = $this->req->request('timeStamp');//提交金额
@@ -46,16 +47,16 @@ class api_yunjiedaifu extends Controller
             echo $this->ret->put('200', $cardnum ? true : false);
             exit;
         }
-        if (strlen($sdorderno) > 50) {
+        if (strlen($orderId) > 50) {
             echo $this->ret->put('203', $cardnum ? true : false);
             exit;
         }
-        if ($total_fee > 50000) {
+        if ($txnAmt > 50000) {
             echo $this->ret->put('207', $cardnum ? true : false);
             exit;
         }
 
-        if ($this->model()->select()->from('orders')->where(array('fields' => 'userid=? and sdorderno=?', 'values' => array($customerid, $sdorderno)))->count()) {
+        if ($this->model()->select()->from('orders')->where(array('fields' => 'userid=? and sdorderno=?', 'values' => array($customerid, $orderId)))->count()) {
             echo $this->ret->put('205', $cardnum ? true : false);
             exit;
         }
@@ -97,6 +98,7 @@ class api_yunjiedaifu extends Controller
             'retUrl'=>$retUrl,
             'paytype'=>'daifu'
            );
+        file_put_contents('api_log.txt',json_encode($this->params,JSON_UNESCAPED_UNICODE).PHP_EOL."\r",FILE_APPEND);
     }
 }
 ?>

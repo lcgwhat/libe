@@ -1,0 +1,95 @@
+/index.php
+/controller/style load fail.
+2018-03-28 10:14:30
+::1
+
+/index.php
+/controller/style load fail.
+2018-03-28 10:14:30
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:14:33
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:14:36
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:14:40
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:21:03
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:22:55
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:28:31
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:29:01
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:29:23
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 10:29:41
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+select * from wy_users  where id=?    
+[file]F:\AppServ\www\WY\libe\app\controller\api.php
+[line]81
+[class]WY\app\libs\Model
+2018-03-28 10:36:07
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+select * from wy_users  where id=?    
+[file]F:\AppServ\www\WY\libe\app\controller\api.php
+[line]81
+[class]WY\app\libs\Model
+2018-03-28 10:36:18
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+select * from wy_users  where id=?    
+[file]F:\AppServ\www\WY\libe\app\controller\api.php
+[line]81
+[class]WY\app\libs\Model
+2018-03-28 10:38:37
+::1
+
+/index.php
+error in F:\AppServ\www\WY\libe\app\libs\Db.php 79
+SQLSTATE[HY093]: Invalid parameter number: no parameters were bound
+select * from wy_users  where id=?    
+[file]F:\AppServ\www\WY\libe\app\controller\api.php
+[line]81
+[class]WY\app\libs\Model
+2018-03-28 10:40:33
+::1
+

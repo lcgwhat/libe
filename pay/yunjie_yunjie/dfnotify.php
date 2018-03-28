@@ -9,7 +9,7 @@ require_once 'inc.php';
 use WY\app\model\Handleorder;
 use WY\app\model\Pushorder;
 $data=file_get_contents('php://input');
-file_put_contents('notify.txt',$data);
+file_put_contents('dfnotify.txt',$data);
 
 libxml_disable_entity_loader(true);
 $resf=simplexml_load_string($data,'SimpleXMLElement',LIBXML_NOCDATA);

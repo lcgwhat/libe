@@ -44,14 +44,14 @@ $retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/notify.php';  //异步通知�
 $merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //页面通知，支付成功后跳转到该地址，参数详见页面通知
 $transCurrency = '156'; //交易币种，固定：156
 
-$cardByName = $data['cardByName'];  //持卡人姓名
+/*$cardByName = $data['cardByName'];  //持卡人姓名
 $cardByNo =(string)($data['cardByNo']);   //持卡卡号
-$cardType = $data['cardType'];  //卡类型    00 贷记卡    01 借记卡   02 准贷记卡
+$cardType = $data['cardType'];  //卡类型    00 贷记卡    01 借记卡   02 准贷记卡*/
 
 
 
-$cerNumber= (string)($data['cerNumber']); //证件号码
-$mobile=(string)($data['mobile']);  //手机号
+/*$cerNumber= (string)($data['cerNumber']); //证件号码
+$mobile=(string)($data['mobile']);  //手机号*/
 $productName= $data['productName'];  //商品名称
 $md5key='lpv3h8v8ymq19a0xchgve4esgpf1rlvx';
 /*----------------------------------统一下单参数------------------------------*/

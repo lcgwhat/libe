@@ -88,7 +88,7 @@ class apisubmit_yjdf extends api_yunjiedaifu
 
         $orderid = $this->res->getOrderID();
         $addtime = time();
-
+        echo $orderid;exit;
         /*用户提交上来的信息*/
         $orderinfo = array(
             'userid' => $customerid,

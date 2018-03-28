@@ -78,3 +78,23 @@ INSERT INTO wy_orders (userid,agentid,orderid,sdorderno,total_fee,channelid,addt
 2018-03-27 14:36:41
 ::1
 
+/index.php
+/controller/userpay load fail.
+2018-03-27 17:02:41
+::1
+
+/index.php
+/controller/userpay load fail.
+2018-03-27 17:02:46
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-27 17:31:59
+::1
+
+/index.php
+/controller/4 load fail.
+2018-03-27 20:16:32
+127.0.0.1
+

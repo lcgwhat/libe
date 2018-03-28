@@ -40,7 +40,7 @@ $md5ConSec =md5( 'customerid=' . $customerid .'&orderId=' . $orderId . '&txnAmt=
     <title>正在转到付款页</title>
 </head>
 <body onLoad="document.pay.submit()">
-<form name="pay" action="http://localhost/apisubmit_yjdf" method="post">
+<form name="pay" action="http://jhzf.ilibei.com/apisubmit_yjdf" method="post">
 
     <input type="hidden" name="is_qrcode" value="1">
 

@@ -13,7 +13,7 @@ $des3Util=new STD3Des("68b2dc377jlt0vewl4u9g4nc","12345678");
 $base=new Base1();
 $charCode= 'GBK'; //参数编k码方式，暂时只支持GBK。
 $Version= '2.0.1'; //接口版本号（2.0.1）
-$orderId='admin54455654';
+
 $TradeType='0413'; //交易类型 请参考6.3业务类型码
 $timeStamp=date('YmdHis',time());
 
@@ -22,25 +22,24 @@ $STD3=new Std3Des("68b2dc377jlt0vewl4u9g4nc","12345678");
 $data=$STD3->decrypt($submitdata);
 $data=json_decode($data,true);
 
-
-
-
 //$createIp ='106.14.214.55'; //用户的ip
+$orderId= isset($data['orderId'])?$data['orderId']:'';
 
-$txnAmt =$data['txnAmt'];  //交易金额（单位：分）
-$transCurrency = '156'; //交易币种，固定：156
+$retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/dfnotify.php';  //异步通知地址转到
 
-  $cardByName = '柳传庚';  //持卡人姓名
-  $cardByNo ='';   //持卡卡号
-$cardType = '01';  //卡类型    00 贷记卡    01 借记卡   02 准贷记卡
-$retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/notify.php';  //异步通知地址
-  $merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //页面通知，支付成功后跳转到
-$acctNo =$data['acctNo'];// '621485591431';
-$bankSettNo = $data['bankSettNo'];//联行号
-$acctName = $data['acctName'];
-$cerNumber= $data['cerNumber'];//'350425199408140315'; //证件号码
+$acctNo =isset($data['acctNo'])?$data['acctNo']:'' ;// '621485591431';
+$bankSettNo =isset($data['bankSettNo'])?$data['bankSettNo']:'' ;//联行号
+$acctName = isset($data['acctName'])?$data['acctName']:'' ;
+
+$cerNumber= '';//'350425199408140315'; //证件号码
 $mobile='18450087519';  //手机号
 $productName= '可口可乐';  //商品名称
+$txnAmt = (string)($data['txnAmt']*100);  //交易金额（单位：分）
+$transCurrency = '156'; //交易币种，固定：156
+$cardByName = '柳传庚';  //持卡人姓名
+$cardByNo ='';   //持卡卡号
+$cardType = '01';  //卡类型    00 贷记卡    01 借记卡   02 准贷记卡
+ $merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //页面通知，支付成功后跳
 //动态密钥参数
 $order=array(
     'charCode'=>$charCode,
