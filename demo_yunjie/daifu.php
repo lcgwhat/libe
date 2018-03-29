@@ -15,8 +15,6 @@ $customerid=$userid;  //商户号
 
 $orderId=$_REQUEST['orderId'];
 
-
-
 $txnAmt= number_format($_REQUEST['txnAmt'],2,'.','');
 
 $acctType= $_REQUEST['acctType'];
@@ -53,6 +51,7 @@ $md5ConSec =md5( 'customerid=' . $customerid .'&orderId=' . $orderId . '&txnAmt=
     <input type="hidden" name="acctType" value="<?php echo $acctType?>">
 
     <input type="hidden" name="acctName" value="<?php echo $acctName?>">
+
     <input type="hidden" name="acctNo" value="<?php echo $acctNo?>">
 
     <input type="hidden" name="bankSettNo" value="<?php echo $bankSettNo?>">

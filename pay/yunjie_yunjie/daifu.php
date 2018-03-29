@@ -11,10 +11,10 @@ require_once 'dongtaimiyao.php';
 use WY\app\libs\Std3Des;
 $des3Util=new STD3Des("68b2dc377jlt0vewl4u9g4nc","12345678");
 $base=new Base1();
-$charCode= 'GBK'; //²ÎÊý±àkÂë·½Ê½£¬ÔÝÊ±Ö»Ö§³ÖGBK¡£
-$Version= '2.0.1'; //½Ó¿Ú°æ±¾ºÅ£¨2.0.1£©
+$charCode= 'GBK'; //??????k????????????GBK??
+$Version= '2.0.1'; //???æ±¾???2.0.1??
 
-$TradeType='0413'; //½»Ò×ÀàÐÍ Çë²Î¿¼6.3ÒµÎñÀàÐÍÂë
+$TradeType='0413'; //???????? ??Î¿?6.3?????????
 $timeStamp=date('YmdHis',time());
 
 $submitdata=isset($_GET['submitdata'])?$_GET['submitdata']:'';
@@ -22,25 +22,54 @@ $STD3=new Std3Des("68b2dc377jlt0vewl4u9g4nc","12345678");
 $data=$STD3->decrypt($submitdata);
 $data=json_decode($data,true);
 
-//$createIp ='106.14.214.55'; //ÓÃ»§µÄip
+//$createIp ='106.14.214.55'; //?????ip
 $orderId= isset($data['orderId'])?$data['orderId']:'';
 
-$retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/dfnotify.php';  //Òì²½Í¨ÖªµØÖ·×ªµ½
+$retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/dfnotify.php';  //??????????
 
 $acctNo =isset($data['acctNo'])?$data['acctNo']:'' ;// '621485591431';
-$bankSettNo =isset($data['bankSettNo'])?$data['bankSettNo']:'' ;//ÁªÐÐºÅ
+
+
+
+$bankSettNo =isset($data['bankSettNo'])?$data['bankSettNo']:'' ;//???Ðº?
 $acctName = isset($data['acctName'])?$data['acctName']:'' ;
 
-$cerNumber= '';//'350425199408140315'; //Ö¤¼þºÅÂë
-$mobile='18450087519';  //ÊÖ»úºÅ
-$productName= '¿É¿Ú¿ÉÀÖ';  //ÉÌÆ·Ãû³Æ
-$txnAmt = (string)($data['txnAmt']*100);  //½»Ò×½ð¶î£¨µ¥Î»£º·Ö£©
-$transCurrency = '156'; //½»Ò×±ÒÖÖ£¬¹Ì¶¨£º156
-$cardByName = 'Áø´«¸ý';  //³Ö¿¨ÈËÐÕÃû
-$cardByNo ='';   //³Ö¿¨¿¨ºÅ
-$cardType = '01';  //¿¨ÀàÐÍ    00 ´û¼Ç¿¨    01 ½è¼Ç¿¨   02 ×¼´û¼Ç¿¨
- $merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //Ò³ÃæÍ¨Öª£¬Ö§¸¶³É¹¦ºóÌø
-//¶¯Ì¬ÃÜÔ¿²ÎÊý
+$acctName=array_iconv($acctName);
+
+function array_iconv($str, $in_charset="utf-8", $out_charset="gbk")//
+{
+    if(is_array($str))
+    {
+        foreach($str as $k => $v)
+        {
+            $str[$k] = array_iconv($v);
+        }
+        return $str;
+    }
+    else
+    {
+        if(is_string($str))
+        {
+            // return iconv('UTF-8', 'GBK//IGNORE', $str);
+            return mb_convert_encoding($str, $out_charset, $in_charset);
+        }
+        else
+        {
+            return $str;
+        }
+    }
+}
+
+$cerNumber= '';//'350425199408140315'; //???????
+$mobile='18450087519';  //?????
+$productName= '??????';  //???????
+$txnAmt = (string)($data['txnAmt']*100);  //????????Î»?????
+$transCurrency = '156'; //?????????????156
+$cardByName = '??????';  //?????????
+$cardByNo ='';   //???????
+$cardType = '01';  //??????    00 ?????    01 ????   02 ??????
+ $merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //?????????????????
+//??????????
 $order=array(
     'charCode'=>$charCode,
     'Version'=> $Version,
@@ -52,7 +81,7 @@ $order=array(
     'md5key'=>$md5key
 );
 
-//¶¯Ì¬ÃÜÔ¿
+//??????
 $resKeyarr=dongtaikey($order);
 if($resKeyarr['0']!='00')
 {
@@ -77,9 +106,9 @@ $pay=array(
     'retUrl'=>'106.14.214.55/pay/yunjie_yunjie/dfnotify.php',
     'md5key'=>$md5key
 );
-//×ö´ú¸¶²Ù×÷
+//??????????
 $daifucaoz=$base->todo($pay,$resKey);
-//var_dump('½á¹û'.json_encode($daifucaoz,JSON_UNESCAPED_UNICODE));
+//var_dump('???'.json_encode($daifucaoz,JSON_UNESCAPED_UNICODE));
 echo '<br/>';
 $x= $daifucaoz->resultCode;
 $y = $daifucaoz->resultDesc;
@@ -101,12 +130,14 @@ $qurOr=array(
     'orderId'=>$orderId,
     'md5key'=>$md5key
 );
-//È·ÈÏ´ú¸¶²Ù×÷
+//??????????
 $querencaoz=$base->todo($qurOr,$resKey);
-var_dump('½á¹û'.json_encode($querencaoz,JSON_UNESCAPED_UNICODE));
+//var_dump('???'.json_encode($querencaoz,JSON_UNESCAPED_UNICODE));
+$i = $querencaoz->resultCode;
+$j = $querencaoz->resultDesc;
 if($querencaoz->resultCode!='00')
 {
-    $sd=array('resultCode'=>$daifucaoz->resultCode[0],'resultDesc'=>$daifucaoz->resultDesc[0]);
+    $sd=array('resultCode'=>$i,'resultDesc'=>$j);
     echo json_encode($sd,JSON_UNESCAPED_UNICODE);
     exit;
 }
@@ -136,6 +167,6 @@ echo '<br/>';
 //    'productName'=> $productName,
 //    'md5key'=>$md5key
 //);
-//¿ì½ÝÖ§¸¶ÉêÇë
+//??????????
 //$kuaijieshengqi=$base->todo($orderinfo,$resKey);
 //echo $kuaijieshengqi;

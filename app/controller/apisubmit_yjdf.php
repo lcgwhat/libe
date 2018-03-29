@@ -88,7 +88,7 @@ class apisubmit_yjdf extends api_yunjiedaifu
 
         $orderid = $this->res->getOrderID();
         $addtime = time();
-        echo $orderid;exit;
+
         /*用户提交上来的信息*/
         $orderinfo = array(
             'userid' => $customerid,
@@ -134,7 +134,7 @@ class apisubmit_yjdf extends api_yunjiedaifu
         $submit_data_old = array(
             'acctType' => $acctType,
             'timeStamp' =>  $addtime,
-            'orderId' => $orid,  //订单号
+            'orderId' => $orderid,  //订单号
             'txnAmt' => $txnAmt,  //交易金额
             'acctName' => $acctName, //姓名
             'retUrl' => $retUrl, //异步通知地址

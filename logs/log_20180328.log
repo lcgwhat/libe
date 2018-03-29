@@ -93,3 +93,38 @@ select * from wy_users  where id=?
 2018-03-28 10:40:33
 ::1
 
+/index.php
+/controller/static load fail.
+2018-03-28 14:31:54
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:32:03
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:32:06
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:32:08
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:32:29
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:32:55
+::1
+
+/index.php
+/controller/static load fail.
+2018-03-28 14:33:24
+::1
+

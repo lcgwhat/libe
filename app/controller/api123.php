@@ -97,6 +97,9 @@ class api123 extends Controller
             'phoneNum'=>$phoneNum,
             'sign'=>$sign);
         file_put_contents('api_log.txt',json_encode($this->params,JSON_UNESCAPED_UNICODE).PHP_EOL."\r",FILE_APPEND);
+
+
+
     }
 
 }

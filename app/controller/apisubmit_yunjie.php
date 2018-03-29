@@ -25,7 +25,8 @@ class apisubmit_yunjie extends api_yunjie
             }
         }
         //签名校验
-        $signStr = 'customerid=' . $customerid .'&orderId=' . $sdorderno . '&tranType=' . $tranType . '&createIp=' . $createIp . '&txnAmt=' . $txnAmt . '&retUrl=' . $retUrl . '&merUrl=' . $merUrl .'&cardByName=' . $cardByName .'&cardByNo=' . $cardByNo .'&cerNumber=' . $cerNumber .'&mobile=' . $mobile . '&' . $this->userData['apikey'];
+        $signStr = 'customerid=' . $customerid .'&orderId=' . $sdorderno . '&tranType=' . $tranType . '&createIp=' . $createIp . '&txnAmt=' . $txnAmt . '&retUrl=' . $retUrl . '&merUrl=' . $merUrl  .'&' . $this->userData['apikey'];
+
         $mysign = md5($signStr);
         if ($md5ConSec != $mysign) {
             echo $this->ret->put('201', $cardnum ? true : false);

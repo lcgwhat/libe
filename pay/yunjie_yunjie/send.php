@@ -27,23 +27,22 @@ $Version= '2.0.1'; //接口版本号（2.0.1）
 $TradeType='0413'; //交易类型 请参考6.3业务类型码
 $TradeType1='0707';
 $TradeType2='0707';
-
-
 $ChannelID= '6600000000000232'; //渠道号（同商户编号）
 $bmMerId  = '6600000000000232';  //商户编号
 $timeStamp= date('YmdHis',time()); //时间戳，当前接口调用时间，具体格式: yyyyMMddHHmmss
+
+
 $orderId  = $data['orderId'].'as';  //商户订单号，商户系统唯一
 $orderId1 = $data['orderId'];
-
 //$tranType='1';  //业务类型
 $createIp = $data['createIp']; //用户的ip
 
 $txnAmt =(string)($data['txnAmt']*100);  //交易金额（单位：分）
 
-$retUrl = 'http://106.14.214.55/pay/yunjie_yunjie/notify.php';  //异步通知地址
-$merUrl = 'http://106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //页面通知，支付成功后跳转到该地址，参数详见页面通知
+$retUrl = '106.14.214.55/pay/yunjie_yunjie/notify.php';  //异步通知地址
+$merUrl = '106.14.214.55/pay/yunjie_yunjie/tongbuno.php';  //页面通知，支付成功后跳转到该地址，参数详见页面通知
 $transCurrency = '156'; //交易币种，固定：156
-
+$productName= $data['productName'];  //商品名称
 /*$cardByName = $data['cardByName'];  //持卡人姓名
 $cardByNo =(string)($data['cardByNo']);   //持卡卡号
 $cardType = $data['cardType'];  //卡类型    00 贷记卡    01 借记卡   02 准贷记卡*/
@@ -52,7 +51,7 @@ $cardType = $data['cardType'];  //卡类型    00 贷记卡    01 借记卡   02
 
 /*$cerNumber= (string)($data['cerNumber']); //证件号码
 $mobile=(string)($data['mobile']);  //手机号*/
-$productName= $data['productName'];  //商品名称
+
 $md5key='lpv3h8v8ymq19a0xchgve4esgpf1rlvx';
 /*----------------------------------统一下单参数------------------------------*/
 
@@ -102,37 +101,38 @@ $oinfo=array(
 );
 
 
- $re   =$base->todo($oinfo,$resKey);
-$url=urldecode($re->qrcode);
+ $re =$base->todo($oinfo,$resKey);
+ $url=urldecode($re->qrcode);
 if(!$url)
 {
     echo json_encode(array('resultCode'=>'01','resultDesc'=>'统一下单错误'),JSON_UNESCAPED_UNICODE);
     exit;
 }
+echo json_encode(array('resultCode'=>'01','rcode'=>$url),JSON_UNESCAPED_UNICODE);
 /*----------------------------------申请支付签名------------------------------*/
 /*----------------------------------申请支付参数------------------------------*/
 
-$orderinfo=array(
-    'charCode'=>$charCode,
-    'Version'=> $Version,
-    'TradeType'=>$TradeType1,
-    'ChannelID'=>$ChannelID,
-    'bmMerId'=> $bmMerId,
-    'timeStamp'=>$timeStamp,
-    'orderId'=>$orderId,
-    'createIp'=>$createIp,
-    'txnAmt'=> $txnAmt,
-    'retUrl'=> $retUrl,
-    'merUrl'=> $merUrl,
-    'transCurrency'=> $transCurrency,
-    'cardByName'=> $cardByName,
-    'cardByNo'=> $cardByNo,
-    'cardType'=> $cardType,
-    'cerNumber'=> $cerNumber,
-    'mobile'=> $mobile,
-    'productName'=> $productName,
-    'md5key'=>$md5key
-);
+//$orderinfo=array(
+//    'charCode'=>$charCode,
+//    'Version'=> $Version,
+//    'TradeType'=>$TradeType1,
+//    'ChannelID'=>$ChannelID,
+//    'bmMerId'=> $bmMerId,
+//    'timeStamp'=>$timeStamp,
+//    'orderId'=>$orderId,
+//    'createIp'=>$createIp,
+//    'txnAmt'=> $txnAmt,
+//    'retUrl'=> $retUrl,
+//    'merUrl'=> $merUrl,
+//    'transCurrency'=> $transCurrency,
+//    'cardByName'=> $cardByName,
+//    'cardByNo'=> $cardByNo,
+//    'cardType'=> $cardType,
+//    'cerNumber'=> $cerNumber,
+//    'mobile'=> $mobile,
+//    'productName'=> $productName,
+//    'md5key'=>$md5key
+//);
 
 //$res=shengqingpay($orderinfo,$resKey);
 //if(!$res)
@@ -142,7 +142,7 @@ $orderinfo=array(
 //}
 
 ?>
-<html lang="en">
+<!--<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title></title>
@@ -150,8 +150,8 @@ $orderinfo=array(
 <body>
 
 <span style="font-size:200px;"><img src="./filename.png" alt=""></span>
-<?php
-include('phpqrcode.php');
+
+/*include('phpqrcode.php');
 // 二维码数据
 // 生成的文件名
 // 纠错级别：L、M、Q、H
@@ -161,9 +161,9 @@ $matrixPointSize = 4;
 $filename = 'filename.png';
 QRcode::png($url, $filename, $errorCorrectionLevel, $matrixPointSize,2);
 
-?>
+*/?>
 </body>
-</html>
+</html>-->
 
 
 

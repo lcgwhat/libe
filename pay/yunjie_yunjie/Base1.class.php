@@ -18,6 +18,7 @@ class Base1
     public function todo($arr,$key)
     {
         $oinfo=$this->tomd5($arr);
+	
         $pay2=$this->res->toXml($oinfo);
         $data2=$this->encrypt($pay2,$key,$oinfo['ChannelID']);
         $url2='http://47.100.1.24/UserAuth';

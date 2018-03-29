@@ -35,7 +35,6 @@ function dongtaikey($arr)
 //var_dump($key);
     $resKey=substr($key,4,-4);  //去掉前4位和后4位得到中间24位则为动态秘钥
 
-    echo '<br/>';
     return  array('0'=>$resf->resultCode,'1'=>$resKey);
 }
 

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo_yunjie/daifu.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/Base1.class.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/daifu.php" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/daifu.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/dongtaimiyao.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/inc.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/send5.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/shengqingpay.php" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pay/yunjie_yunjie/tongyixiadan.php" charset="UTF-8" />
   </component>
 </project>
