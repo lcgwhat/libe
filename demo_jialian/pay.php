@@ -23,7 +23,7 @@ $sign=md5('version='.$version.'&customerid='.$customerid.'&total_fee='.$total_fe
     <title>正在转到付款页</title>
 </head>
 <body onLoad="document.pay.submit()">
-    <form name="pay" action="http://jhzf.ilibei.com/apisubmit_jialian" method="post">
+    <form name="pay" action="http://localhost/apisubmit_jialian" method="post">
         <input type="hidden" name="version" value="<?php echo $version?>">
         <input type="hidden" name="customerid" value="<?php echo $customerid?>">
         <input type="hidden" name="sdorderno" value="<?php echo $sdorderno?>">

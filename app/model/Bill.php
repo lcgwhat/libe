@@ -7,6 +7,7 @@ if (!defined('WY_ROOT')) {
 }
 class Bill extends Model
 {
+
     function __construct()
     {
         parent::__construct();
